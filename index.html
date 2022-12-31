@@ -22,7 +22,7 @@
 
   <nav class="navbar bg-light fixed-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navid Abbasian</a>
+      <a class="navbar-brand title-0" href="#">Navid Abbasian</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
         aria-controls="offcanvasNavbar">
         <span class="navbar-toggler-icon"></span>
@@ -38,27 +38,37 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#About">About Me</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="#Skill">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contact">Contact Me</a>
             </li>
           </ul>
-          <form class="d-flex mt-3" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
+
+          <section class="mb-4">
+
+            <!-- Twitter -->
+            <a class="mt-5 btn btn-outline-dark btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+    
+            <!-- Instagram -->
+            <a class="mt-5 btn btn-outline-dark btn-floating m-1" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+    
+            <!-- Linkedin -->
+            <a class="mt-5 btn btn-outline-dark btn-floating m-1" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
+    
+            <!-- Github -->
+            <a class="mt-5 btn btn-outline-dark btn-floating m-1" href="#!" role="button"><i class="fab fa-github"></i></a>
+          </section>
+
         </div>
       </div>
     </div>
@@ -93,9 +103,9 @@
     <div class="container text-center mt-5">
       <div class="row row-cols-2">
         <div class="row text-start">
-          <div class="col-sm small-capital"><span>MORE <a href="#">About Me</a></span></div>
-          <div class="col-sm small-capital"><span>VIEW <a href="#">My Works</a></span></div>
-          <div class="col-sm small-capital"><span>CONTACT <a href="#">Me</a></span></div>
+          <div class="col-sm small-capital"><span>MORE <a class="title-3" href="#About">About Me</a></span></div>
+          <div class="col-sm small-capital"><span>VIEW <a class="title-3" href="#Portfolio">My Works</a></span></div>
+          <div class="col-sm small-capital"><span>CONTACT <a class="title-3" href="#Contact">Me</a></span></div>
         </div>
         <div class="col"></div>
       </div>
@@ -110,7 +120,7 @@
 
   <!--  What I Do  -->
 
-  <div class="">
+  <div id="About" class="">
     <div class="row">
       <div class="bg-whatido pt-5 ps-5 col-md-6 col-lg-6 col-xl-6 col-12 col-sm-12"><span class="title-1">What I
           Do.</span>
@@ -156,7 +166,7 @@
   </div>
 
   <!--  Skills  -->
-  <div class="skill-bg">
+  <div id="Skill" class="skill-bg">
 
     <div class="container">
       <div class="skill-font ps-5 pt-5">Skills</div>
@@ -261,7 +271,7 @@
 
   <!--  Education  -->
 
-  <div class="bg-education">
+  <div id="Education" class="bg-education">
     <div class="container">
       <div class="ps-5 pt-5 row text-start">
         <p class="mt-5 title-3">Education</p>
@@ -269,7 +279,8 @@
         <p class="text-3">I studied IT at Karaj Azad University (KIAU)<br>
           I learned the basics C++ in University and then I started to learn PHP <br>
           While studying, I did University projects for other Students and develop php website's <br>
-          After finishing the university, I learned Android programming in <a href="#">Seven Learn</a> And after that,
+          After finishing the university, I learned Android programming in <a class="title-3" href="#">Seven Learn</a>
+          And after that,
           Flutter's language too<br>
           Now my academic studies are over and I am upgrading my knowledge to become a software engineer</p>
       </div>
@@ -280,7 +291,7 @@
 
   <!--  Portfolio  -->
 
-  <div class="container bg-portfolio mt-5">
+  <div id="Portfolio" class="container bg-portfolio mt-5">
     <p class="mt-5 title-1 text-center">Portfolio</p>
     <p class=" text-1 text-center">Here you can see the projects that I have personally done or do in team.</p>
   </div>
@@ -307,7 +318,7 @@
 
     <div>
       <p class="title-2 text-center">
-        <a href="#">Nike Store Android App</a>
+        <a class="title-1" href="#">Nike Store Android App</a>
       </p>
       <p class="text-1 text-center">
         This program is actually the final project of Seven Learn training course<br>
@@ -341,7 +352,7 @@
 
     <div>
       <p class="title-2 text-center">
-        <a href="#">Caltex Music</a> Website
+        <a class="title-1" href="#">Caltex Music Website</a>
       </p>
       <p class="text-1 text-center">This project was about moving the website from WordPress to Laravel custom panel<br>
         The team I was there was working on it and my responsibility was to work on the database part of the site<br>
@@ -352,14 +363,14 @@
 
   </div>
 
-    <!--  Footer  -->
+  <!--  Footer  -->
 
   <footer class="bg-dark text-center text-white mt-5">
     <!-- Grid container -->
     <div class="container p-4">
       <!-- Section: Social media -->
       <section class="mb-4">
-       
+
         <!-- Twitter -->
         <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
 
@@ -374,13 +385,17 @@
       </section>
       <!-- Section: Social media -->
 
+      <div id="Contact" class="text-center">
+        Email me at <a class="title-3" href="#">navidabbasian@gmail.com</a> <br>
+        Messeage me at <a class="title-3" href="#">09353722681</a>
+      </div>
 
-    <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-      © 2022 Copyright:
-      <a class="text-white" href="https://akoteam.ir/">Akoteam.com</a>
-    </div>
-    <!-- Copyright -->
+      <!-- Copyright -->
+      <div class="footer-p text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2022 Copyright:
+        <a class=" title-3" href="https://akoteam.ir/">Akoteam.com</a>
+      </div>
+      <!-- Copyright -->
   </footer>
 
 
@@ -388,7 +403,5 @@
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
     </script>
 </body>
-
-</html>
 
 </html>

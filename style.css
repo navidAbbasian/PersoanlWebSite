@@ -19,10 +19,16 @@ body {
 
 a {
     text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-    font-size: x-large;
+    
 
+}
+
+a:hover {
+    color: rgb(125, 125, 125);
+}
+
+.title-0 {
+    font-weight: bold;
 }
 
 .title-1 {
@@ -130,6 +136,14 @@ a {
         height: 220px;
         margin: auto;
     }
+}
+
+
+.bg-dark {
+    min-height: 280px;
+}
+.footer-p {
+    margin-top: 200px;
 }
 
 .skill-bg {
