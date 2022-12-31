@@ -46,9 +46,15 @@ a:hover {
 .title-3 {
     color: azure;
     font-weight: bold;
-    font-size: x-large;
+    font-size: xx-large;
     margin-bottom: 0;
 
+}
+
+.title-4 {
+    font-weight: bold;
+    font-size: x-large;
+    color:aliceblue;
 }
 
 .text-1 {
@@ -80,11 +86,6 @@ a:hover {
     max-width: 520px;
     margin-left: 64px;
     margin-right: 64px;
-}
-
-.skill-font {
-    color: #fff;
-    font-size: xx-large;
 }
 
 .small-capital {
